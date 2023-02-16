@@ -1,0 +1,9 @@
+ul.nav.navbar-nav a:hover {
+
+    color: rgba(6, 129, 210, 0.872) !important;
+    background-color: white;
+}
+
+.nav.navbar-nav.navbar-right a {
+    color: white;
+}

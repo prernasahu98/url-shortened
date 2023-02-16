@@ -1,0 +1,17 @@
+<nav class="navbar navbar-dark bg-primary" *ngIf="isLoggedIn()">
+
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand" style="color: white;">TinyURL Generator</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="active"><a routerLink="/" routerLinkActive="active" style="color: white;">Home</a></li>
+            <li><a href="#" style="color: white;">Contact Us</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a style="color: white;" style="cursor:pointer" (click)="logOut()"><span
+                        class="glyphicon glyphicon-log-in"></span>
+                    Logout</a></li>
+        </ul>
+    </div>
+</nav>
